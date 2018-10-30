@@ -1,0 +1,43 @@
+This mod adds a few very useful recipes.
+ Check the Recipe Browser to figure them all out.
+
+Also adds some OP accessories (with complicated recipes) which can really super-charge the Player.
+To balance out how powerful these accessories are, I gave them recipes that require massive amounts of money.
+
+Use the Recipe Browser to figure them all out.
+
+The current accessories (sorted by cost) include:
+> Build Range Pixel (Massively increases block placement range. Splelunker buff. Adds Platinum Watch buff. Immune to Blackout, Darkness, Obstructed and NoBuilding debuffs)
+
+> Melee Pixel (Massively increases melee weapon speed, crit, and damage. No Knockback. Immune to Withered Weapon debuff. Infinite Night Vision and Hunter buff.)
+> Range Pixel (Massively increases range weapon crit and damage. Immune to Confused and Cursed debuffs.)
+> Magic Pixel (Massively increases magic weapon crit, damage. All magic needs 0 mana. Massively increases mana and mana regen. Star Cloak buff. Immune to Mana Sickness, and Silenced debuffs.)
+
+> Ice Pixel (Ice Skate and Tiger Climbing Gear abilities. Immune to Chilled, Frozen, and Frostburn debuffs)
+> Jump Pixel (Increases player speed and jump height. Immune to Slow, Weak, OgreSpit, and Webbed debuffs. Adds Compass and Depth Meter buffs.)
+> Minion Pixel (Increases number of minions slots by 20. Massively increases minion damage. Immune to BrokenArmor and WitheredArmor debuff)
+
+> Floating Pixel (No fall damage. Infinite Magic Carpet. Immune to Stoned debuff)
+
+> Fire Pixel (Let's you walk on water, lava, and fireblocks. Take no damage from lava. Immune to Burning, OnFire, and Cursed Inferno debuffs)
+> Water Pixel (No breath timer underwater. Allows swimming. Allows you to walk on water, but NOT lava. Massively boosts fishing.)
+
+> Life Pixel (Massively increases HP, regeneration, and defense. Immune to Venom, Poisoned, and Bleeding debuff.)
+
+NOTE
+This mod is the continuation of OP + Recipes. The original mod suddenly stopped compiling correctly so I copied all the code to this mod and republished.
+
+GOALS
+I NEED LOTS OF HELP! I DON'T KNOW HOW TO CODE THE IDEAS I HAVE!!
+
+I'd like to add tools that do interesting things too. Like axes that can cut down 2 trees at once? Picks that mine a 3x3, 5x5, 7x7 area?
+
+CHANGELOG
+v1.3.2 - "You really need to work on the icons." / "Okay. How about now?" / "Well, it's not worse..."
+Icons provided under the Creative Commons 3.0.
+
+More info and icons available at https://game-icons.net
+
+Many thanks to Lorc for the icons.
+
+v1.5.7 - Accessories build costs go from 1 to 15 platinum coins.
