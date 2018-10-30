@@ -33,11 +33,11 @@ I NEED LOTS OF HELP! I DON'T KNOW HOW TO CODE THE IDEAS I HAVE!!
 I'd like to add tools that do interesting things too. Like axes that can cut down 2 trees at once? Picks that mine a 3x3, 5x5, 7x7 area?
 
 CHANGELOG
-v1.3.2 - "You really need to work on the icons." / "Okay. How about now?" / "Well, it's not worse..."
+v1.0.0 - "You really need to work on the icons." / "Okay. How about now?" / "Well, it's not worse..."
 Icons provided under the Creative Commons 3.0.
 
 More info and icons available at https://game-icons.net
 
 Many thanks to Lorc for the icons.
 
-v1.5.7 - Accessories build costs go from 1 to 15 platinum coins.
+Accessories build costs go from 1 to 15 platinum coins.
