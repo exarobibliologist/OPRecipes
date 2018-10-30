@@ -41,3 +41,5 @@ More info and icons available at https://game-icons.net
 Many thanks to Lorc for the icons.
 
 Accessories build costs go from 1 to 15 platinum coins.
+
+v1.0.1 - Tweaked a few incomplete descriptions. No significant changes.
