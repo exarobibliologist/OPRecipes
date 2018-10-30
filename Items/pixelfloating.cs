@@ -13,7 +13,7 @@ namespace OPRecipes.Items
         {
             base.SetStaticDefaults();
             DisplayName.SetDefault("Floating Pixel");
-            Tooltip.SetDefault("Bonuses:\n No Fall damage\n Infinite Magic Carpet");
+            Tooltip.SetDefault("Bonuses:\n No Fall damage\nInfinite Magic Carpet\nImmune to Stoned debuff");
         }
         public override void SetDefaults()
         {
@@ -30,7 +30,7 @@ namespace OPRecipes.Items
 			recipe.SetResult(this);
             recipe.AddRecipe();
 		}
-		
+
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
 			player.noFallDmg = true; //[Lucky Horseshoe effect, fall damage won't be an issue] [BOOL]
