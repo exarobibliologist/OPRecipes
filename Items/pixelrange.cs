@@ -35,6 +35,8 @@ namespace OPRecipes.Items
         {
 			player.rangedCrit += 1000;
 			player.rangedDamage += 10f;
+			player.nightVision = true; //[Night Vision buff] [BOOL]
+			player.detectCreature = true; //[Hunter potion effect, makes enemies glow in darkness] [BOOL]
 			player.buffImmune[BuffID.Confused] = true;
             player.buffImmune[BuffID.Cursed] = true;
 		}

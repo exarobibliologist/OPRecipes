@@ -39,6 +39,8 @@ namespace OPRecipes.Items
 			player.starCloak = true; //[Star Cloak effect, stars fall down upon being damaged] [BOOL]
 			player.statManaMax2 += 1000; //[Add to player's max mana] [INT]
 			player.manaRegen = 9999; //[Modify mana regeneration] [INT]
+			player.nightVision = true; //[Night Vision buff] [BOOL]
+			player.detectCreature = true; //[Hunter potion effect, makes enemies glow in darkness] [BOOL]
 			player.buffImmune[BuffID.ManaSickness] = true;
 			player.buffImmune[BuffID.Silenced] = true;
 		}
