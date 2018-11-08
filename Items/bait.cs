@@ -5,15 +5,15 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OPRecipes.Items       //We need this to basically indicate the folder where it is to be read from, so you the texture will load correctly
+namespace OPRecipes.Items
 {
     public class bait : ModItem
     {
 		public override void SetStaticDefaults()
         {
             base.SetStaticDefaults();
-            DisplayName.SetDefault("Pixel Bait");
-            Tooltip.SetDefault("This looks like fish might like it.");
+            DisplayName.SetDefault("Gel Bait");
+            Tooltip.SetDefault("It looks really young! Are you sure you want to do that?");
         }
         public override void SetDefaults()
         {
@@ -22,7 +22,7 @@ namespace OPRecipes.Items       //We need this to basically indicate the folder 
             item.value = 10000;
 			item.maxStack = 999; //This defines the items max stack
             item.rare = 6;
-            item.bait = 50;
+            item.bait = 90;
         }
         public override void AddRecipes()
         {

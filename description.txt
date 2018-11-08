@@ -1,7 +1,7 @@
 This mod adds a few very useful recipes.
  Check the Recipe Browser to figure them all out.
 
-New Items Added: Pixel Bait - 50% fishing power, crafted using 5 Gel. Go kill slimes, then go fishing.
+New Items Added: Gel Bait (pun completely intended) - 90% fishing power, crafted using 5 Gel.
 
 Also adds some OP accessories (with complicated recipes) which can really super-charge the Player.
 To balance out how powerful these accessories are, I gave them recipes that require massive amounts of money.
@@ -38,3 +38,5 @@ v1.0.0 - "You really need to work on the icons." / "Okay. How about now?" / "Wel
 Icons provided under the Creative Commons 3.0. Many thanks to Lorc for providing these icons at game-icons.net
 
 v1.1 - Realized that the pixels were too expensive, so I reduced the price of the Water Pixel so you can grind fishing to get money for the others.
+
+v1.2 - Added Gel Bait
