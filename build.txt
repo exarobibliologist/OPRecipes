@@ -1,4 +1,4 @@
 author = exarobibliologist
-version = 1.2.2
+version = 1.2.5
 displayName = OP+Recipes
 homepage = https://github.com/exarobibliologist/OPRecipes

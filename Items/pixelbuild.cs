@@ -33,32 +33,32 @@ namespace OPRecipes.Items
             recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2, 50); // Dirt
+			recipe.AddIngredient(2, 10); // Dirt
             recipe.SetResult(27, 1); // makes Acorn
             recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2, 50); // Dirt
+			recipe.AddIngredient(2, 10); // Dirt
             recipe.SetResult(3, 1); // makes Stone - not worth it unless you want to liquidate a bunch of dirt in your inventory
             recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2,50); //Dirt
+			recipe.AddIngredient(2,10); //Dirt
 			recipe.SetResult(23, 1); //makes Gel
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2, 50); // Dirt
+			recipe.AddIngredient(2, 10); // Dirt
             recipe.SetResult(9, 1); // makes Wood - not worth it unless you want to liquidate a bunch of dirt in your inventory
             recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(22, 50); // Iron Bar
+			recipe.AddIngredient(22, 10); // Iron Bar
             recipe.SetResult(118, 1); // makes Hook - not really a cheap recipe, but saves some grinding
             recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(704, 50); // Lead Bar
+			recipe.AddIngredient(704, 10); // Lead Bar
             recipe.SetResult(118, 1); // makes Hook - not really a cheap recipe, but saves some grinding
             recipe.AddRecipe();
 

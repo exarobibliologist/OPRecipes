@@ -19,15 +19,15 @@ namespace OPRecipes.Items
         {
             item.width = 1;
             item.height = 1;
-            item.value = 10000;
+            item.value = 500000;
 			item.maxStack = 999; //This defines the items max stack
             item.rare = 6;
-            item.bait = 90;
+            item.bait = 999;
         }
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Gel, 5); // It's a gooey mess.
+			recipe.AddIngredient(ItemID.Gel, 10); // It's a gooey mess.
 			recipe.SetResult(this);
             recipe.AddRecipe();
 		}
