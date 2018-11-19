@@ -13,7 +13,7 @@ namespace OPRecipes.Items
         {
             base.SetStaticDefaults();
             DisplayName.SetDefault("Floating Pixel");
-            Tooltip.SetDefault("Bonuses:\n No Fall damage\nInfinite Magic Carpet\nImmune to Stoned debuff");
+            Tooltip.SetDefault("Bonuses:\nInfinite Magic Carpet\nImmune to Stoned debuff");
         }
         public override void SetDefaults()
         {
@@ -33,7 +33,6 @@ namespace OPRecipes.Items
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-			player.noFallDmg = true; //[Lucky Horseshoe effect, fall damage won't be an issue] [BOOL]
 			player.canCarpet = true; //[When used in affiliation with p.carpet, it allows for infinite use of Magic Carpet] [BOOL]
 			player.carpet = true; //[Grants the player the Magic Carpet effect] [BOOL]
 			player.carpetTime = 999999999; //[How long you can fly with the Magic Carpet accessory] [INT]
