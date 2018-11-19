@@ -1,7 +1,8 @@
 This mod adds a few very useful recipes.
  Check the Recipe Browser to figure them all out.
 
-New Items Added: Gel Bait (pun completely intended) which is crafted using 10 Gel.
+New Stuff: "If I had a gold coin for every time I died in Terraria..."
+Die a lot in Terraria? Dig up your tombstones. All the non-golden tombstones can be crafted into coins.
 
 Also adds some OP accessories (with complicated recipes) which can really super-charge the Player.
 To balance out how powerful these accessories are, I gave them recipes that require massive amounts of money.

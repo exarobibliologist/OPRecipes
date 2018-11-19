@@ -77,6 +77,36 @@ namespace OPRecipes.Items
 			recipe.AddIngredient(2740, 66); // Grasshoppers
 			recipe.SetResult(2673, 1); // Turn into Truffle Worms
 			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(321, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 1); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(1173, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 1); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(1174, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 1); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(1175, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 1); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(1176, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 1); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(1177, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 10); // I'd be rich!
+			recipe.AddRecipe();
 		}
 
         public override void UpdateAccessory(Player player, bool hideVisual)
