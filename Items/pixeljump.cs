@@ -13,7 +13,7 @@ namespace OPRecipes.Items
         {
             base.SetStaticDefaults();
             DisplayName.SetDefault("Jump Pixel");
-            Tooltip.SetDefault("Get up. Stand up.\nC'mon throw your hands up.\nIf you got the feeling, jump across the ceiling...\n \nMassively increases jump height and speed.\nImmune to Slow, Weak, OgreSpit, and Webbed debuffs.\nAdds Compass and Depth Meter buffs.");
+            Tooltip.SetDefault("Get up. Stand up.\nC'mon throw your hands up.\nIf you got the feeling, jump across the ceiling...\n \nMassively increases jump height and speed.\nNo Fall Damage\nImmune to Slow, Weak, OgreSpit, and Webbed debuffs.\nAdds Compass and Depth Meter buffs.");
         }
 
 		public override void SetDefaults()
@@ -37,6 +37,7 @@ namespace OPRecipes.Items
         {
 			player.jumpSpeedBoost = 8f; //[Modifies how fast you rise when you jump, and therefore jumping distance increases] [FLOAT]
 			player.moveSpeed += 30f;
+			player.noFallDmg = true; //[Lucky Horseshoe effect, fall damage won't be an issue] [BOOL]
 			player.buffImmune[BuffID.Slow] = true;
 			player.buffImmune[BuffID.Weak] = true;
 			player.buffImmune[BuffID.OgreSpit] = true;
