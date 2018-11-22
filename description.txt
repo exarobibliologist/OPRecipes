@@ -1,8 +1,8 @@
 This mod adds a few very useful recipes.
  Check the Recipe Browser to figure them all out.
 
-New Stuff: "If I had a gold coin for every time I died in Terraria..."
-Die a lot in Terraria? Dig up your tombstones. All the non-golden tombstones can be crafted into coins.
+New Stuff: "Something gooey this way comes..."
+Introducing a new line of gel swords. Each has a broadsword main attack, and shortsword alt-attack. It takes a LOT of gel to complete the entire line of swords, but it will be worth it.
 
 Also adds some OP accessories (with complicated recipes) which can really super-charge the Player.
 To balance out how powerful these accessories are, I gave them recipes that require massive amounts of money.
@@ -29,10 +29,7 @@ Melee Pixel, Range Pixel, and Magic Pixel also provide Infinite Night Vision and
 
 > Life Pixel (Massively increases HP, regeneration, and defense. Immune to Venom, Poisoned, and Bleeding debuff.)
 
-GOALS
-I NEED LOTS OF HELP! I DON'T KNOW HOW TO CODE THE IDEAS I HAVE!!
-
-I'd like to add tools that do interesting things too. Like axes that can cut down 2 trees at once? Picks that mine a 3x3, 5x5, 7x7 area?
+> Gel Swords - Who knew slime is massive quantities was this awesome!
 
 CHANGELOG
 v1.0.0 - "You really need to work on the icons." / "Okay. How about now?" / "Well, it's not worse..."
@@ -41,3 +38,9 @@ Icons provided under the Creative Commons 3.0. Many thanks to Lorc for providing
 v1.1 - Realized that the pixels were too expensive, so I reduced the price of the Water Pixel so you can grind fishing to get money for the others.
 
 v1.2 - Added Gel Bait
+
+v1.3 - Added tombstone into gold coin recipes.
+
+v1.4 - Added blue gel into pink gel recipe. And 10 new gel swords!
+
+v1.4.1 - This probably broke some things. Got rid of half of the gel swords because they were just too OP. Assigned better names to the remaining gel swords. Now all the swords have alternate attacks (right-click to stab). The final sword also inflicts crazy debuffs with each attack.
