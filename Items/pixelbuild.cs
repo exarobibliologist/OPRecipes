@@ -61,6 +61,11 @@ namespace OPRecipes.Items
 			recipe.AddIngredient(704, 10); // Lead Bar
             recipe.SetResult(118, 1); // makes Hook - not really a cheap recipe, but saves some grinding
             recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(23,2); //Gel
+			recipe.SetResult(3111, 1); //makes Pink Gel
+			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(2740, 3); // Grasshoppers
