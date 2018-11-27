@@ -35,6 +35,8 @@ namespace OPRecipes.Items
         {
 			player.maxMinions += 20;
             player.minionDamage += 10f;
+			player.nightVision = true; //[Night Vision buff] [BOOL]
+			player.detectCreature = true; //[Hunter potion effect, makes enemies glow in darkness] [BOOL]
 			player.buffImmune[BuffID.BrokenArmor] = true;
 			player.buffImmune[BuffID.WitheredArmor] = true;
 		}

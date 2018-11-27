@@ -7,7 +7,7 @@ using Terraria.ModLoader;
 
 namespace OPRecipes.Items
 {
-    public class pixelbuild : ModItem
+    public class pixelbuildandrecipes : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -31,6 +31,16 @@ namespace OPRecipes.Items
 			recipe.AddIngredient(74, 1); // Platinum Coins
 			recipe.SetResult(this);
             recipe.AddRecipe();
+
+			
+// ______          _                 
+// | ___ \        (_)                
+// | |_/ /___  ___ _ _ __   ___  ___ 
+// |    // _ \/ __| | '_ \ / _ \/ __|
+// | |\ \  __/ (__| | |_) |  __/\__ \
+// \_| \_\___|\___|_| .__/ \___||___/
+//                  | |              
+//                  |_|              
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(2, 10); // Dirt
@@ -60,6 +70,21 @@ namespace OPRecipes.Items
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(704, 10); // Lead Bar
             recipe.SetResult(118, 1); // makes Hook - not really a cheap recipe, but saves some grinding
+            recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(22, 10); // Iron Bar
+            recipe.SetResult(87, 1); // makes a Piggy Bank
+            recipe.AddRecipe();
+
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(704, 10); // Lead Bar
+            recipe.SetResult(87, 1); // makes a Piggy Bank
+            recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(19, 30); // Gold Bar
+            recipe.SetResult(3213, 1); // makes a Money Trough
             recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);

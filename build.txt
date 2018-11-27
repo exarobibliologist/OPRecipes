@@ -1,4 +1,4 @@
 author = exarobibliologist
-version = 1.4.1
+version = 1.4.2
 displayName = OP+Recipes
-homepage = https://github.com/exarobibliologist/OPRecipes
+homepage = https://forums.terraria.org/index.php?threads/op-recipes.74378/
