@@ -11,8 +11,8 @@ namespace OPRecipes.Items
 		public override void SetStaticDefaults()
         {
             base.SetStaticDefaults();
-            DisplayName.SetDefault("Gel Boom Disc");
-            Tooltip.SetDefault("A cool boomerang");
+            DisplayName.SetDefault("Gel SuperCatch");
+            Tooltip.SetDefault("A catastrophic mix of pew-pew and boom-boom shaped into a circle");
         }
 		
 		public override void SetDefaults()
@@ -25,7 +25,7 @@ namespace OPRecipes.Items
 			item.useAnimation = 25;
             item.noUseGraphic = true;
             item.useStyle = 1;
-			item.knockBack = 5;
+			item.knockBack = 20;
 			item.value = 8;
 			item.rare = 6;
 			item.shootSpeed = 12f;

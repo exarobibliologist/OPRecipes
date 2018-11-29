@@ -12,7 +12,7 @@ namespace OPRecipes.Items
         {
             base.SetStaticDefaults();
             DisplayName.SetDefault("Gel Circle Jerk");
-            Tooltip.SetDefault("A cool boomerang");
+            Tooltip.SetDefault("Keep Away From r/circlejerk. It'll never stop spinning!");
         }
 		
 		public override void SetDefaults()
@@ -25,7 +25,7 @@ namespace OPRecipes.Items
 			item.useAnimation = 25;
             item.noUseGraphic = true;
             item.useStyle = 1;
-			item.knockBack = 10;
+			item.knockBack = 20;
 			item.value = 8;
 			item.rare = 6;
 			item.shootSpeed = 12f;

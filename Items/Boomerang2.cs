@@ -12,7 +12,7 @@ namespace OPRecipes.Items
         {
             base.SetStaticDefaults();
             DisplayName.SetDefault("Gel Bang-A-Rang");
-            Tooltip.SetDefault("A cool boomerang");
+            Tooltip.SetDefault("A little sharper for the discerning adventurer...");
         }
 		
 		public override void SetDefaults()
@@ -25,7 +25,7 @@ namespace OPRecipes.Items
 			item.useAnimation = 25;
             item.noUseGraphic = true;
             item.useStyle = 1;
-			item.knockBack = 15;
+			item.knockBack = 20;
 			item.value = 8;
 			item.rare = 6;
 			item.shootSpeed = 12f;

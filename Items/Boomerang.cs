@@ -12,7 +12,7 @@ namespace OPRecipes.Items
         {
             base.SetStaticDefaults();
             DisplayName.SetDefault("Gel Boomer");
-            Tooltip.SetDefault("A cool boomerang");
+            Tooltip.SetDefault("This is just the beginning...");
         }
 		
 		public override void SetDefaults()
