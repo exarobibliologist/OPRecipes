@@ -34,11 +34,16 @@ namespace OPRecipes.Items
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(mod.ItemType("gelsword2"), 3);
-			recipe.AddIngredient(ItemID.Gel, 100); // It's a gooey mess.
+			recipe.AddIngredient(ItemID.Gel, 50); // It's a gooey mess.
 			recipe.AddIngredient(ItemID.PinkGel, 20); // It's a gooey mess.
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(mod.ItemType("Boomerang3"), 1);
+            recipe.SetResult(this); //
+            recipe.AddRecipe();
 		}
 		
 		public override bool AltFunctionUse(Player player)
