@@ -5,14 +5,14 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OPRecipes.Items
+namespace OPRecipes.Items.GelStuff
 {
-	public class gelsword5 : ModItem
+	public class gelsword6 : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Gel Katana");
-			Tooltip.SetDefault("King Slime only wishes he was this cool.\nJust one more level to go...\nRight-click for stab attack.");
+			DisplayName.SetDefault("Gel Wakizashi");
+			Tooltip.SetDefault("The ultimate sword...\nLeft-click for Broadsword attack with fire debuffs.\nRight-click for stab attack with ice debuffs.");
 		}
 		public override void SetDefaults()
 		{
@@ -33,9 +33,9 @@ namespace OPRecipes.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(mod.ItemType("gelsword4"), 3);
+			recipe.AddIngredient(mod.ItemType("gelsword5"), 3);
 			recipe.AddIngredient(ItemID.Gel, 100); // It's a gooey mess.
-			recipe.AddIngredient(ItemID.PinkGel, 40); // It's a gooey mess.
+			recipe.AddIngredient(ItemID.PinkGel, 50); // It's a gooey mess.
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
@@ -58,6 +58,20 @@ namespace OPRecipes.Items
 			}
 			return base.CanUseItem(player);
 			
+		}
+		
+		public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
+		{
+			if (player.altFunctionUse == 2)
+			{
+				target.AddBuff(BuffID.Frozen, 60);
+				target.AddBuff(BuffID.Frostburn, 60);
+			}
+			else
+			{
+				target.AddBuff(BuffID.OnFire, 60);
+				target.AddBuff(BuffID.CursedInferno, 60);
+			}
 		}
 	}
 }

@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OPRecipes.Items
+namespace OPRecipes.Items.GelStuff
 {
 	public class Boomerang2 : ModItem
 	{
@@ -50,6 +50,7 @@ namespace OPRecipes.Items
 			recipe.AddIngredient(mod.ItemType("Boomerang"), 3);
 			recipe.AddIngredient(ItemID.Gel, 50); // It's a gooey mess.
 			recipe.AddIngredient(ItemID.PinkGel, 10); // It's a gooey mess.
+			recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();
 				

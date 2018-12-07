@@ -4,20 +4,20 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OPRecipes.Items
+namespace OPRecipes.Items.GelStuff
 {
-	public class Boomerang : ModItem
+	public class Boomerang3 : ModItem
 	{
 		public override void SetStaticDefaults()
         {
             base.SetStaticDefaults();
-            DisplayName.SetDefault("Gel Boomer");
-            Tooltip.SetDefault("This is just the beginning...");
+            DisplayName.SetDefault("Gel Circle Jerk");
+            Tooltip.SetDefault("Keep Away From r/circlejerk. It'll never stop spinning!");
         }
 		
 		public override void SetDefaults()
 		{
-            item.damage = 10;            
+            item.damage = 90;            
             item.melee = true;
             item.width = 30;
             item.height = 30;
@@ -29,7 +29,7 @@ namespace OPRecipes.Items
 			item.value = 8;
 			item.rare = 6;
 			item.shootSpeed = 12f;
-			item.shoot = mod.ProjectileType ("BoomerangProjectile");
+			item.shoot = mod.ProjectileType ("Boomerang3Projectile");
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 		}
@@ -47,12 +47,15 @@ namespace OPRecipes.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(mod.ItemType("Boomerang2"), 3);
 			recipe.AddIngredient(ItemID.Gel, 50); // It's a gooey mess.
+			recipe.AddIngredient(ItemID.PinkGel, 10); // It's a gooey mess.
+			recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();
 				
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(mod.ItemType("gelsword1"), 1);
+			recipe.AddIngredient(mod.ItemType("gelsword3"), 1);
             recipe.SetResult(this); //
             recipe.AddRecipe();
 		}

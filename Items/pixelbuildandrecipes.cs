@@ -25,6 +25,17 @@ namespace OPRecipes.Items
             item.accessory = true;
         }
 
+		public override void UpdateAccessory(Player player, bool hideVisual)
+        {
+			player.blockRange += 100; //[Sets how far the player can place blocks] [INT]
+			player.findTreasure = true; //[Spelunker effect, treasure glows in the dark] [BOOL]
+			player.accWatch = 5; //[Displays the time at the top left of the screen] [INT]
+			player.buffImmune[BuffID.NoBuilding] = true;
+			player.buffImmune[BuffID.Darkness] = true;
+			player.buffImmune[BuffID.Blackout] = true;
+			player.buffImmune[BuffID.Obstructed] = true;
+		}
+		
 		public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
@@ -197,12 +208,22 @@ namespace OPRecipes.Items
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(703, 2); // Tin Bar...
+			recipe.SetResult(22, 1); // Iron Bar
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(22, 1); // Iron Bar...
 			recipe.SetResult(20, 2); // Copper Bar
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(22, 2); // Iron Bar...
+			recipe.SetResult(21, 1); // Silver Bar
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(700, 2); // Lead Bar...
 			recipe.SetResult(21, 1); // Silver Bar
 			recipe.AddRecipe();
 			
@@ -217,12 +238,22 @@ namespace OPRecipes.Items
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(705, 2); // Tungsten Bar...
+			recipe.SetResult(19, 1); // Gold Bar
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(19, 1); // Gold Bar...
 			recipe.SetResult(21, 2); // Silver Bar
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(19, 2); // Gold Bar...
+			recipe.SetResult(117, 1); // Meteorite Bar
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(706, 2); // Platinum Bar...
 			recipe.SetResult(117, 1); // Meteorite Bar
 			recipe.AddRecipe();
 			
@@ -240,9 +271,14 @@ namespace OPRecipes.Items
 			recipe.AddIngredient(57, 1); // Demonite Bar...
 			recipe.SetResult(117, 2); // Meteorite Bar
 			recipe.AddRecipe();
-
+			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(57, 2); // Demonite Bar...
+			recipe.SetResult(175, 1); // Hellstone Bar
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(880, 2); // Demonite Bar...
 			recipe.SetResult(175, 1); // Hellstone Bar
 			recipe.AddRecipe();
 
@@ -299,17 +335,6 @@ namespace OPRecipes.Items
 			recipe.AddIngredient(19, 5); // Gold Bar...
 			recipe.SetResult(2336, 1); // Gold Crate
 			recipe.AddRecipe();
-			}
-
-        public override void UpdateAccessory(Player player, bool hideVisual)
-        {
-			player.blockRange += 100; //[Sets how far the player can place blocks] [INT]
-			player.findTreasure = true; //[Spelunker effect, treasure glows in the dark] [BOOL]
-			player.accWatch = 5; //[Displays the time at the top left of the screen] [INT]
-			player.buffImmune[BuffID.NoBuilding] = true;
-			player.buffImmune[BuffID.Darkness] = true;
-			player.buffImmune[BuffID.Blackout] = true;
-			player.buffImmune[BuffID.Obstructed] = true;
 		}
     }
 }
