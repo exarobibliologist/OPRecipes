@@ -60,6 +60,22 @@ namespace OPRecipes.Items.GelStuff
 				item.useStyle = 1;
 			}
 			return base.CanUseItem(player);
-		}	
+		}
+
+		public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
+		{
+			if (player.altFunctionUse == 2)
+			{
+				target.AddBuff(BuffID.Confused, 10);
+				target.AddBuff(BuffID.Frostburn, 10);
+				target.AddBuff(BuffID.CursedInferno, 10);
+			}
+			else
+			{
+				target.AddBuff(BuffID.Confused, 10);
+				target.AddBuff(BuffID.Frostburn, 10);
+				target.AddBuff(BuffID.CursedInferno, 10);
+			}
+		}
 	}
 }

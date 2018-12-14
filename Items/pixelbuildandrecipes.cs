@@ -203,6 +203,11 @@ namespace OPRecipes.Items
 //                                     |___/                                                                             
 			
 			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(9, 2); // Wood...
+			recipe.SetResult(20, 1); // Copper Bar
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(20, 2); // Copper Bar...
 			recipe.SetResult(22, 1); // Iron Bar
 			recipe.AddRecipe();
@@ -223,7 +228,7 @@ namespace OPRecipes.Items
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(700, 2); // Lead Bar...
+			recipe.AddIngredient(704, 2); // Lead Bar...
 			recipe.SetResult(21, 1); // Silver Bar
 			recipe.AddRecipe();
 			
@@ -278,13 +283,8 @@ namespace OPRecipes.Items
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(880, 2); // Demonite Bar...
-			recipe.SetResult(175, 1); // Hellstone Bar
-			recipe.AddRecipe();
-
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(175, 1); // Demonite Bar...
-			recipe.SetResult(57, 2); // Hellstone Bar
+			recipe.AddIngredient(175, 1); // Hellstone Bar...
+			recipe.SetResult(57, 2); // Demonite Bar
 			recipe.AddRecipe();
 			
 //  ______            _        _       
