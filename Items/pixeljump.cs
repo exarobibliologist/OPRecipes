@@ -37,6 +37,7 @@ namespace OPRecipes.Items
         {
 			player.jumpSpeedBoost = 8f; //[Modifies how fast you rise when you jump, and therefore jumping distance increases] [FLOAT]
 			player.moveSpeed += 30f;
+			player.dash = 2;
 			player.noFallDmg = true; //[Lucky Horseshoe effect, fall damage won't be an issue] [BOOL]
 			player.buffImmune[BuffID.Slow] = true;
 			player.buffImmune[BuffID.Weak] = true;
