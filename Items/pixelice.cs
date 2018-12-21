@@ -35,11 +35,11 @@ namespace OPRecipes.Items
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-          player.iceSkate = true; //[Ice Skate ability or decreases ice slippiness, faster movement on ice, and falling on ice won't break it] [BOOL]
-			    player.spikedBoots = 2; //[Set to 1 for slide-down walls, Set to 2 for hang-on walls] (like Tiger Climbing Gear)[INT]
-          player.buffImmune[BuffID.Chilled] = true;
-          player.buffImmune[BuffID.Frozen] = true;
-          player.buffImmune[BuffID.Frostburn] = true;
+			player.iceSkate = true; //[Ice Skate ability or decreases ice slippiness, faster movement on ice, and falling on ice won't break it] [BOOL]
+			player.spikedBoots = 2; //[Set to 1 for slide-down walls, Set to 2 for hang-on walls] (like Tiger Climbing Gear)[INT]
+			player.buffImmune[BuffID.Chilled] = true;
+			player.buffImmune[BuffID.Frozen] = true;
+			player.buffImmune[BuffID.Frostburn] = true;
         }
     }
 }

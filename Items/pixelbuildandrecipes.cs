@@ -53,22 +53,22 @@ namespace OPRecipes.Items
 //                                                                       |___/     
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2, 10); // Dirt
+			recipe.AddIngredient(2, 1); // Dirt
             recipe.SetResult(27, 1); // makes Acorn
             recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2, 10); // Dirt
+			recipe.AddIngredient(2, 1); // Dirt
             recipe.SetResult(3, 1); // makes Stone
             recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2,10); //Dirt
+			recipe.AddIngredient(2, 5); //Dirt
 			recipe.SetResult(23, 1); //makes Gel
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(2, 10); // Dirt
+			recipe.AddIngredient(2, 5); // Dirt
             recipe.SetResult(9, 1); // makes Wood
             recipe.AddRecipe();
 
@@ -165,31 +165,56 @@ namespace OPRecipes.Items
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(321, 1); // If I had a Gold Coin for every time I died poor...
-			recipe.SetResult(73, 2); // I'd be rich!
+			recipe.SetResult(73, 20); // I'd be rich!
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(1173, 1); // If I had a Gold Coin for every time I died poor...
-			recipe.SetResult(73, 1); // I'd be rich!
+			recipe.SetResult(73, 50); // I'd be rich!
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(1174, 1); // If I had a Gold Coin for every time I died poor...
-			recipe.SetResult(73, 1); // I'd be rich!
+			recipe.SetResult(73, 50); // I'd be rich!
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(1175, 1); // If I had a Gold Coin for every time I died poor...
-			recipe.SetResult(73, 2); // I'd be rich!
+			recipe.SetResult(73, 25); // I'd be rich!
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(1176, 1); // If I had a Gold Coin for every time I died poor...
-			recipe.SetResult(73, 5); // I'd be rich!
+			recipe.SetResult(73, 25); // I'd be rich!
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(1177, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 20); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(3230, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 10); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(3231, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 10); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(3229, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 10); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(3233, 1); // If I had a Gold Coin for every time I died poor...
+			recipe.SetResult(73, 10); // I'd be rich!
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(3232, 1); // If I had a Gold Coin for every time I died poor...
 			recipe.SetResult(73, 10); // I'd be rich!
 			recipe.AddRecipe();
 
@@ -204,87 +229,62 @@ namespace OPRecipes.Items
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(9, 2); // Wood...
-			recipe.SetResult(20, 1); // Copper Bar
+			recipe.SetResult(12, 10); // Copper Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(20, 2); // Copper Bar...
-			recipe.SetResult(22, 1); // Iron Bar
+			recipe.SetResult(11, 10); // Iron Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(703, 2); // Tin Bar...
-			recipe.SetResult(22, 1); // Iron Bar
-			recipe.AddRecipe();
-			
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(22, 1); // Iron Bar...
-			recipe.SetResult(20, 2); // Copper Bar
+			recipe.SetResult(11, 10); // Iron Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(22, 2); // Iron Bar...
-			recipe.SetResult(21, 1); // Silver Bar
+			recipe.SetResult(14, 10); // Silver Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(704, 2); // Lead Bar...
-			recipe.SetResult(21, 1); // Silver Bar
+			recipe.SetResult(14, 10); // Silver Ore
 			recipe.AddRecipe();
-			
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(21, 1); // Silver Bar...
-			recipe.SetResult(22, 2); // Iron Bar
-			recipe.AddRecipe();
-			
+						
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(21, 2); // Silver Bar...
-			recipe.SetResult(19, 1); // Gold Bar
+			recipe.SetResult(13, 10); // Gold Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(705, 2); // Tungsten Bar...
-			recipe.SetResult(19, 1); // Gold Bar
+			recipe.SetResult(13, 10); // Gold Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(19, 1); // Gold Bar...
-			recipe.SetResult(21, 2); // Silver Bar
-			recipe.AddRecipe();
-
-			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(19, 2); // Gold Bar...
-			recipe.SetResult(117, 1); // Meteorite Bar
+			recipe.SetResult(116, 10); // Meteorite Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(706, 2); // Platinum Bar...
-			recipe.SetResult(117, 1); // Meteorite Bar
+			recipe.SetResult(116, 10); // Meteorite Ore
 			recipe.AddRecipe();
 			
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(117, 1); // Meteorite Bar...
-			recipe.SetResult(19, 2); // Gold Bar
-			recipe.AddRecipe();
-
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(117, 2); // Meteorite Bar...
-			recipe.SetResult(57, 1); // Demonite Bar
-			recipe.AddRecipe();
-			
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(57, 1); // Demonite Bar...
-			recipe.SetResult(117, 2); // Meteorite Bar
+			recipe.SetResult(56, 10); // Demonite Bar
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(57, 2); // Demonite Bar...
-			recipe.SetResult(175, 1); // Hellstone Bar
+			recipe.SetResult(174, 10); // Hellstone Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(175, 1); // Hellstone Bar...
-			recipe.SetResult(57, 2); // Demonite Bar
+			recipe.AddIngredient(1257, 2); // Crimtane Bar...
+			recipe.SetResult(174, 10); // Hellstone Ore
 			recipe.AddRecipe();
 			
 //  ______            _        _       

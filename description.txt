@@ -1,49 +1,13 @@
-This mod adds a few very useful recipes.
- Check the Recipe Browser to figure them all out.
+This mod adds some very useful, only slightly cheaty, recipes!
 
-New Stuff: Gel Boomerangs! Currently 4 of them. Working towards 6... All of them are interchangeable with their gel sword counterpart.
+There's boomerangs, fishing bait, and dual-use swords!
 
-Also adds some OP accessories (with complicated recipes) which can really super-charge the Player.
-To balance out how powerful these accessories are, I gave them recipes that require massive amounts of money.
+Also adds some OP accessories which can really super-charge the Player.
 
-Use the Recipe Browser to figure them all out.
-
-The current accessories (sorted by cost) include:
-> Build Range Pixel (Massively increases block placement range. Splelunker buff. Adds Platinum Watch buff. Immune to Blackout, Darkness, Obstructed and NoBuilding debuffs)
-> Water Pixel (No breath timer underwater. Allows swimming. Allows you to walk on water, but NOT lava. Massively boosts fishing.)
-
-> Melee Pixel (Massively increases melee weapon speed, crit, and damage. No Knockback. Immune to Withered Weapon debuff.)
-> Range Pixel (Massively increases range weapon crit and damage. Immune to Confused and Cursed debuffs.)
-> Magic Pixel (Massively increases magic weapon crit, damage. All magic needs 0 mana. Massively increases mana and mana regen. Star Cloak buff. Immune to Mana Sickness, and Silenced debuffs.)
-
-Melee Pixel, Range Pixel, and Magic Pixel also provide Infinite Night Vision and Hunter buff.
-
-> Ice Pixel (Ice Skate and Tiger Climbing Gear abilities. Immune to Chilled, Frozen, and Frostburn debuffs)
-> Jump Pixel (Increases player speed and jump height. Immune to Slow, Weak, OgreSpit, and Webbed debuffs. Adds Compass and Depth Meter buffs.)
-> Minion Pixel (Increases number of minions slots by 20. Massively increases minion damage. Immune to BrokenArmor and WitheredArmor debuff)
-
-> Floating Pixel (No fall damage. Infinite Magic Carpet. Immune to Stoned debuff)
-
-> Fire Pixel (Let's you walk on water, lava, and fireblocks. Take no damage from lava. Immune to Burning, OnFire, and Cursed Inferno debuffs)
-
-> Life Pixel (Massively increases HP, regeneration, and defense. Immune to Venom, Poisoned, and Bleeding debuff.)
-
-> Gel Swords and Boomerangs - Who knew slime is massive quantities was this awesome!
+Use the Recipe Browser to figure them all out. Read all about the stuff in the mod on the mod homepage.
 
 CHANGELOG
 v1.0.0 - "You really need to work on the icons." / "Okay. How about now?" / "Well, it's not worse..."
 Icons provided under the Creative Commons 3.0. Many thanks to Lorc for providing these icons at game-icons.net
 
-v1.1 - Realized that the pixels were too expensive, so I reduced the price of the Water Pixel so you can grind fishing to get money for the others.
-
-v1.2 - Added Gel Bait
-
-v1.3 - Added tombstone into gold coin recipes.
-
-v1.4 - Added blue gel into pink gel recipe. And 10 new gel swords!
-
-v1.4.1 - This probably broke some things. Got rid of half of the gel swords because they were just too OP. Assigned better names to the remaining gel swords. Now all the swords have alternate attacks (right-click to stab). The final sword also inflicts crazy debuffs with each attack.
-
-v1.5 - Added gel boomerangs.
-Lots more recipes! Can convert bars at 2:1 ratio, water buckets into other buckets.
-Convert crates into higher valued crates by combining them with iron or gold bars.
+v1.5.2 - Convert bars into ore. Still testing this recipe to make sure its not ridiculously OP.
