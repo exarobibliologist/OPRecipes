@@ -239,12 +239,12 @@ Each tier upgrade of ore, requires 2x as much copper to create
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(12, 2); // Copper Ore 2:1...
-			recipe.SetResult(11, 1); // 2:1 Iron Ore
+			recipe.SetResult(11, 1); // Iron Ore
 			recipe.AddRecipe();
 						
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(12, 4); // Copper Ore 4:1...
-			recipe.SetResult(14, 1); // 4:1 Silver Ore
+			recipe.SetResult(14, 1); // Silver Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
