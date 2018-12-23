@@ -10,4 +10,4 @@ CHANGELOG
 v1.0.0 - "You really need to work on the icons." / "Okay. How about now?" / "Well, it's not worse..."
 Icons provided under the Creative Commons 3.0. Many thanks to Lorc for providing these icons at game-icons.net
 
-v1.5.2 - Convert bars into ore. Still testing this recipe to make sure its not ridiculously OP.
+v1.5.2 - Convert wood into copper ore. Then convert copper ore into successive tiers of stronger ore. Each tier costs 2x as much as the previous tier.

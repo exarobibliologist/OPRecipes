@@ -218,73 +218,78 @@ namespace OPRecipes.Items
 			recipe.SetResult(73, 10); // I'd be rich!
 			recipe.AddRecipe();
 
-//    ___  _      _                                __  _____     __    _____                               _             
-//   / _ \| |    | |                              / / / __  \ _ /  |  /  __ \                             (_)            
-//  / /_\ \ | ___| |__   ___ _ __ ___  _   _     / /  `' / /'(_)`| |  | /  \/ ___  _ ____   _____ _ __ ___ _  ___  _ __  
-//  |  _  | |/ __| '_ \ / _ \ '_ ` _ \| | | |   / /     / /      | |  | |    / _ \| '_ \ \ / / _ \ '__/ __| |/ _ \| '_ \ 
-//  | | | | | (__| | | |  __/ | | | | | |_| |  / /    ./ /___ _ _| |_ | \__/\ (_) | | | \ V /  __/ |  \__ \ | (_) | | | |
-//  \_| |_/_|\___|_| |_|\___|_| |_| |_|\__, | /_/     \_____/(_)\___/  \____/\___/|_| |_|\_/ \___|_|  |___/_|\___/|_| |_|
-//                                      __/ |                                                                            
-//                                     |___/                                                                             
-			
+
+//    ___  _      _                          
+//   / _ \| |    | |                         
+//  / /_\ \ | ___| |__   ___ _ __ ___  _   _ 
+//  |  _  | |/ __| '_ \ / _ \ '_ ` _ \| | | |
+//  | | | | | (__| | | |  __/ | | | | | |_| |
+//  \_| |_/_|\___|_| |_|\___|_| |_| |_|\__, |
+//                                      __/ |
+//                                     |___/ 
+
+/*
+This is good for liquidating lots of wood, and then lots of copper, all at once, but still getting good returns.
+Each tier upgrade of ore, requires 2x as much copper to create
+*/			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(9, 2); // Wood...
-			recipe.SetResult(12, 10); // Copper Ore
+			recipe.AddIngredient(9, 1); // Wood...
+			recipe.SetResult(12, 5); // Copper Ore
 			recipe.AddRecipe();
-			
+
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(20, 2); // Copper Bar...
-			recipe.SetResult(11, 10); // Iron Ore
-			recipe.AddRecipe();
-			
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(703, 2); // Tin Bar...
-			recipe.SetResult(11, 10); // Iron Ore
-			recipe.AddRecipe();
-			
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(22, 2); // Iron Bar...
-			recipe.SetResult(14, 10); // Silver Ore
-			recipe.AddRecipe();
-			
-			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(704, 2); // Lead Bar...
-			recipe.SetResult(14, 10); // Silver Ore
+			recipe.AddIngredient(12, 2); // Copper Ore 2:1...
+			recipe.SetResult(11, 1); // 2:1 Iron Ore
 			recipe.AddRecipe();
 						
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(21, 2); // Silver Bar...
-			recipe.SetResult(13, 10); // Gold Ore
+			recipe.AddIngredient(12, 4); // Copper Ore 4:1...
+			recipe.SetResult(14, 1); // 4:1 Silver Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(705, 2); // Tungsten Bar...
-			recipe.SetResult(13, 10); // Gold Ore
+			recipe.AddIngredient(12, 8); // Copper Ore 8:1...
+			recipe.SetResult(13, 1); // Gold Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(19, 2); // Gold Bar...
-			recipe.SetResult(116, 10); // Meteorite Ore
+			recipe.AddIngredient(12, 16); // Copper Ore 16:1...
+			recipe.SetResult(116, 1); // Meteorite Ore
+			recipe.AddRecipe();
+
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(12, 32); // Copper Ore 32:1...
+			recipe.SetResult(56, 1); // Demonite Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(706, 2); // Platinum Bar...
-			recipe.SetResult(116, 10); // Meteorite Ore
+			recipe.AddIngredient(12, 64); // Copper Ore 64:1...
+			recipe.SetResult(174, 1); // Hellstone Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(117, 2); // Meteorite Bar...
-			recipe.SetResult(56, 10); // Demonite Bar
+			recipe.AddIngredient(12, 128); // Copper Ore 128:1...
+			recipe.SetResult(364, 1); // Cobalt Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(57, 2); // Demonite Bar...
-			recipe.SetResult(174, 10); // Hellstone Ore
+			recipe.AddIngredient(12, 256); // Copper Ore 256:1...
+			recipe.SetResult(365, 1); // Mythril Ore
 			recipe.AddRecipe();
 			
 			recipe = new ModRecipe(mod);
-			recipe.AddIngredient(1257, 2); // Crimtane Bar...
-			recipe.SetResult(174, 10); // Hellstone Ore
+			recipe.AddIngredient(12, 512); // Copper Ore 512:1...
+			recipe.SetResult(366, 1); // Adamantite Ore
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(12, 1024); // Copper Ore 1024:1...
+			recipe.SetResult(947, 1); // Chlorophyte Ore
+			recipe.AddRecipe();
+			
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(12, 2048); // Copper Ore 2048:1...
+			recipe.SetResult(3460, 1); // Luminite Ore
 			recipe.AddRecipe();
 			
 //  ______            _        _       
