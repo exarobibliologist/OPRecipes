@@ -23,7 +23,7 @@ namespace OPRecipes.Items.Projectiles
 			projectile.friendly = true;
 			projectile.ranged = true;
 			projectile.magic = false;
-			projectile.penetrate = 30;
+			projectile.tileCollide = false;
 			projectile.timeLeft = 600;
 			projectile.light = 6.0f;
 			projectile.extraUpdates = 1;

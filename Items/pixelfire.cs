@@ -19,14 +19,14 @@ namespace OPRecipes.Items
         {
             item.width = 1;
             item.height = 1;
-            item.value = 10000;
+            item.value = 1;
             item.rare = 6;
             item.accessory = true;
         }
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(74, 8); // Platinum Coins
+			recipe.AddIngredient(74, 1); // Platinum Coins
 			recipe.SetResult(this);
             recipe.AddRecipe();
 		}

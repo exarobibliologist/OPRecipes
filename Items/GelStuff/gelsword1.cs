@@ -12,7 +12,7 @@ namespace OPRecipes.Items.GelStuff
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Gel Chokuto");
-			Tooltip.SetDefault("This is just the beginning...\nRight-click for stab attack.\nBleeding?");
+			Tooltip.SetDefault("This is just the beginning...\nRight-click for stab attack.");
 		}
 		public override void SetDefaults()
 		{
@@ -66,13 +66,13 @@ namespace OPRecipes.Items.GelStuff
 		{
 			if (player.altFunctionUse == 2)
 			{
-				target.AddBuff(BuffID.Confused, 10);
-				target.AddBuff(BuffID.Frostburn, 10);
-				target.AddBuff(BuffID.CursedInferno, 10);
+				target.AddBuff(BuffID.Confused, 20);
+				target.AddBuff(BuffID.Frostburn, 20);
+				target.AddBuff(BuffID.CursedInferno, 20);
 			}
 			else
 			{
-				target.AddBuff(BuffID.Confused, 10);
+				target.AddBuff(BuffID.Confused, 20);
 				target.AddBuff(BuffID.Frostburn, 10);
 				target.AddBuff(BuffID.CursedInferno, 10);
 			}

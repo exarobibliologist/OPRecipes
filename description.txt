@@ -1,8 +1,8 @@
-This mod adds some very useful, only slightly cheaty, recipes!
+This mod adds some very useful, only slightly cheaty, recipes! Now supports alternate ores as well.
 
 There's boomerangs, fishing bait, and dual-use swords!
 
-Also adds some OP accessories which can really super-charge the Player.
+Also adds some OP accessories called Pixels which can really super-charge the Player.
 
 Use the Recipe Browser to figure them all out. Read all about the stuff in the mod on the mod homepage.
 
@@ -10,4 +10,6 @@ CHANGELOG
 v1.0.0 - "You really need to work on the icons." / "Okay. How about now?" / "Well, it's not worse..."
 Icons provided under the Creative Commons 3.0. Many thanks to Lorc for providing these icons at game-icons.net
 
-v1.5.2 - Convert wood into copper ore. Then convert copper ore into successive tiers of stronger ore. Each tier costs 2x as much as the previous tier.
+v1.6 - Boomerangs ignore tiles and can be fired through walls and blocks.
+
+v1.7 - The Pixels are so OP, there's really no point in trying to balance them by giving them ridiculously expensive recipes, so now all the Pixel recipes can be crafted with 1 Platinum Coin. You are responsible for controlling yourself if you don't like using OP things.

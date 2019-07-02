@@ -26,7 +26,7 @@ namespace OPRecipes.Items
 		public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(74, 2); // Platinum Coins
+			recipe.AddIngredient(74, 1); // Platinum Coins
 			recipe.SetResult(this);
             recipe.AddRecipe();
         }
@@ -35,7 +35,7 @@ namespace OPRecipes.Items
         {
 			player.meleeCrit += 1000;
 			player.meleeDamage += 10f;
-            player.meleeSpeed += 3f;
+            //player.meleeSpeed += 3f;
 			player.buffImmune[BuffID.WitheredWeapon] = true;
 			player.noKnockback = true; // Immunity to knockback.
 			player.nightVision = true; //[Night Vision buff] [BOOL]
